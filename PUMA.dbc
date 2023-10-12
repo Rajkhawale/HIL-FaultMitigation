@@ -1,0 +1,121 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ :
+
+BO_ 100 Exhaust_temp: 8 Vector__XXX
+  SG_ exh_cyl1 : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ exh_cyl2 : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ exh_cyl3 : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ exh_cyl4 : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+
+BO_ 110 Exhaust_temp2: 8 Vector__XXX
+  SG_ T_exh_man : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_turb_ot : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ exh_cyl5 : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ exh_cyl6 : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+
+BO_ 140 pressure_airpth: 8 Vector__XXX
+  SG_ P_cmp_in : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_cmp_ot : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_exh_man : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_turb_ot : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+
+BO_ 150 pressure_fluid: 8 Vector__XXX
+  SG_ P_eng_cool_in : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_eng_cool_ot : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_eng_oil : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+  SG_ P_fuel_rail : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+
+BO_ 120 speed_Trq: 8 Vector__XXX
+  SG_ P_baro : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "" Vector__XXX
+  SG_ Speed : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "RPM" Vector__XXX
+  SG_ T_cell : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ Torque : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "Nm" Vector__XXX
+
+BO_ 170 temp_airpath: 8 Vector__XXX
+  SG_ T_air_dwn_CAC : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_comp_in : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_comp_ot : 32|16@1- (0.10000000000000001,0) [-1638.3699999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_int_man : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+
+BO_ 130 temp_fluid: 8 Vector__XXX
+  SG_ T_eng_cool_in : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_eng_cool_ot : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+  SG_ T_eng_oil : 32|16@1- (0.01,0) [-1638.3499999999999|1638.3499999999999] "deg C" Vector__XXX
+
+BO_ 160 volume_flow: 8 Vector__XXX
+  SG_ Eng_MF_LFE : 0|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "kg/h" Vector__XXX
+  SG_ Eng_cool_vf : 16|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "kg/h" Vector__XXX
+  SG_ FB_VAL : 32|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "kg/h" Vector__XXX
+  SG_ P_Backprssure : 48|16@1- (0.10000000000000001,0) [-1638.3499999999999|1638.3499999999999] "bar" Vector__XXX
+
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "ONR";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 100 0;
+BA_ "GenMsgSendType" BO_ 100 0;
+BA_ "GenMsgCycleTime" BO_ 100 100;
+BA_ "VFrameFormat" BO_ 110 0;
+BA_ "GenMsgSendType" BO_ 110 0;
+BA_ "GenMsgCycleTime" BO_ 110 100;
+BA_ "VFrameFormat" BO_ 140 0;
+BA_ "GenMsgSendType" BO_ 140 0;
+BA_ "GenMsgCycleTime" BO_ 140 100;
+BA_ "VFrameFormat" BO_ 150 0;
+BA_ "GenMsgSendType" BO_ 150 0;
+BA_ "GenMsgCycleTime" BO_ 150 100;
+BA_ "VFrameFormat" BO_ 120 0;
+BA_ "GenMsgSendType" BO_ 120 0;
+BA_ "GenMsgCycleTime" BO_ 120 100;
+BA_ "VFrameFormat" BO_ 170 0;
+BA_ "GenMsgSendType" BO_ 170 0;
+BA_ "GenMsgCycleTime" BO_ 170 100;
+BA_ "VFrameFormat" BO_ 130 0;
+BA_ "GenMsgSendType" BO_ 130 0;
+BA_ "GenMsgCycleTime" BO_ 130 100;
+BA_ "VFrameFormat" BO_ 160 0;
+BA_ "GenMsgSendType" BO_ 160 0;
+BA_ "GenMsgCycleTime" BO_ 160 100;
